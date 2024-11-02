@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        
+        <!-- Div Covering whole screen -->
+        <div class="wholeScreen">
+              
+            <!-- mainHeaderDiv -->
+             <div class="mainHeader">
+
+                  <!-- logoDiv -->
+                   <div class="logoDiv">
+                        <img src="./images/logo.svg" alt="logo-svg">
+                        <h2>Procodrr</h2>
+                   </div>
+
+                    <!-- hamburger -->
+                   <div class="hambrg">
+                        <label for="ham">
+                            <img class="hamburger" src="./images/Hamburger.svg" alt="hamburger">
+                        </label>
+                   </div>
+                   <input class="hamInput" type="checkbox" id="ham">
+
+                  <!-- nav-user-Div -->
+                   <div class="nav-user">
+
+                         <!-- nav-links -->
+                         <nav>
+                            <ul>
+                                <li>Home</li>
+                                <li class="courses">
+                                    <div class="text">
+                                        Courses
+                                        <img class="dropdown" src="./images/dropdown.svg" alt="dropdown-svg">
+                                    </div>
+                                    <ul class="courses-ul">
+                                        <li><a href="#" target="_blank">Full HTML Course for Beginners in Hindi</a></li>
+                                        <li><a href="#" target="_blank">Full CSS Course for Beginners in Hindi</a></li>
+                                        <li><a href="#" target="_blank">The Complete JavaScript Course</a></li>
+                                        <li><a href="#" target="_blank">Git and GitHub Fundamentals</a></li>
+                                        <li><a href="#" target="_blank">Tailwind CSS Complete Course in Hindi</a></li>
+                                        <li><a href="#" target="_blank">React.js Full Course in Hindi</a></li>
+                                    </ul>
+                                </li>
+                                <li>About</li>
+                                <li>Contact</li>
+                            </ul>
+                         </nav>
+
+                         <!-- user-Div -->
+                           <div class="user">
+                                <div class="userImage">
+                                    <img src="./images/User Avatar.svg" alt="user-avatar-svg">
+                                    <div class="circle"></div>
+                                </div>
+                               <h2>Bilal Asif</h2>
+
+                               <label for="ham" class="cross">
+                                     <img  src="./images/cross.svg" alt="">
+                               </label>
+
+                           </div>
+                   </div>
+                
+
+             </div>
+        </div>
+    </header>
+    
+</body>
+</html>
